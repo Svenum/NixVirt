@@ -9,12 +9,12 @@ lib: lib.domain.templates.windows
 {
   qemu-commandline =
     {
-      arg =
+      "qemu:arg" =
         [
           { value = "-newarg"; }
           { value = "parameter"; }
         ];
-      env =
+      "qemu:env" =
         [
           { name = "ID"; value = "wibble"; }
           { name = "BAR"; }
